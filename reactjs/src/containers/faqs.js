@@ -3,7 +3,7 @@ import {Accordion} from '../components'
 import OptForm from '../components/opt-form'
 import faqsData from '../fixtures/faqs.json'
 
-export default function FaqContainer() {
+export function FaqContainer() {
   return (
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
