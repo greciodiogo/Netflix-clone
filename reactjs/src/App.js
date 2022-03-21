@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import IsUserRedirect from './components/helpers/routes';
 import *as ROUTES from './constants/routes'
 import { Browse, Home, Signin, Signup } from './pages';
 
-export default function App () {  
+export default function App () {
+  const user= {}  
   return (
     <BrowserRouter>
       <Routes>
